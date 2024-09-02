@@ -14,8 +14,8 @@ You need to build a helpful AI receptionist for a doctor that is available on te
 8.If it was an emergency, post point 6 say “Don’t worry, please follow these steps, Dr. Adrin will be with you shortly”<br>
 9.If at any point the user says something unrelated, say “I don’t understand that and repeat the question/statement”<br>
 
-# Flowchart
-![Flowchart](ai_reception.png)
+# Flowchart (Click on flowchart for video tutorial to run this)
+![Flowchart][(ai_reception.png)](https://youtu.be/tvj0_dJ5I2E)
 
 
 ## Functions
@@ -52,8 +52,6 @@ Handles scenarios where the user wants to leave a message for the recipient.
 
 Initial function that determines whether the user's input is related to an emergency, a message, or something unrelated, and routes the input accordingly.
 
-# Video Tutorial
-![tutorial](https://youtu.be/tvj0_dJ5I2E)
 
 ## How to Run
 
