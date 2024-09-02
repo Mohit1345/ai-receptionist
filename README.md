@@ -59,7 +59,7 @@ Initial function that determines whether the user's input is related to an emerg
     pip install -r requirements.txt
     ```
 
-2. Set up your environment variables. Make sure to include the `GOOGLE_API_KEY` in your environment.
+2. Set up your environment variables. Make sure to include the `GOOGLE_API_KEY` and `GEMINI_MODEL` (Model selected should support function calling) in .env.
 
 3. Run the main script:
 
