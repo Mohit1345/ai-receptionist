@@ -15,7 +15,7 @@ You need to build a helpful AI receptionist for a doctor that is available on te
 9.If at any point the user says something unrelated, say “I don’t understand that and repeat the question/statement”
 
 # Flowchart
-![Flowchart](path/to/ai reception.png)
+![Flowchart](ai reception.png)
 
 ## Functions
 
