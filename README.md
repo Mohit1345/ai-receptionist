@@ -17,6 +17,7 @@ You need to build a helpful AI receptionist for a doctor that is available on te
 # Flowchart
 ![Flowchart](ai_reception.png)
 
+
 ## Functions
 
 ### `get_input_async(prompt: str) -> str`
@@ -50,6 +51,9 @@ Handles scenarios where the user wants to leave a message for the recipient.
 ### `node1(unrelated: bool = False)`
 
 Initial function that determines whether the user's input is related to an emergency, a message, or something unrelated, and routes the input accordingly.
+
+# Video Tutorial
+![tutorial](https://youtu.be/tvj0_dJ5I2E)
 
 ## How to Run
 
