@@ -15,7 +15,7 @@ You need to build a helpful AI receptionist for a doctor that is available on te
 9.If at any point the user says something unrelated, say “I don’t understand that and repeat the question/statement”<br>
 
 # Flowchart (Click on flowchart for video tutorial to run this)
-![Flowchart][(ai_reception.png)](https://youtu.be/tvj0_dJ5I2E)
+![[Flowchart](ai_reception.png)](https://youtu.be/tvj0_dJ5I2E)
 
 
 ## Functions
