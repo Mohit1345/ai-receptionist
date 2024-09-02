@@ -22,7 +22,7 @@ async def unrelated_message():
     
 
 async def closing_node():
-    print("Dr. Adrin will be with you shortly.")
+    print("AI: Dr. Adrin will be with you shortly.")
 
 async def node2A():
     # Emergency Node
@@ -56,7 +56,7 @@ async def node2A():
     duration = end_time - start_time
 
     if duration < 15:
-        print("Please hold, just a sec")
+        print("AI: Please hold, just a sec")
         print("----------")
         if response_understanding['response'] == "its_late":
             emergency_action = rag_search(emergency_ask + " its being late")
@@ -70,7 +70,7 @@ async def node2A():
             emergency_action = rag_search(emergency_ask)
 
     if len(emergency_action)>0:
-        print(emergency_action)
+        print("AI: " + emergency_action)
         print("Don’t worry, please follow these steps, ")
     
     await closing_node()
