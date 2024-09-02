@@ -4,7 +4,7 @@
 ## Intructions Followed
 You need to build a helpful AI receptionist for a doctor that is available on text.
 
-1.In the first node you need to confirm from the user if they are having an emergency or they would like to leave a message.
+1.In the first node you need to confirm from the user if they are having an emergency or they would like to leave a message.\n
 2.In the second node if its a message, you need to ask the user for the message. If its an emergency, you need to first confirm what is the emergency
 3.If the given emergency is in your vector database (like qdrant or whatever you want), you need to, based on the emergency, provide an immediate next step to the user to do while the doctor calls the user back. Eg. If the patient is not breathing - then do CPR - details of what CPR is. This call to the database needs to be artificially slowed down by 15 seconds.
 4.While the call to the database is happening, you need to continue the conversation saying, “I am checking what you should do immediately, meanwhile, can you tell me which area are you located right now?”
@@ -15,7 +15,7 @@ You need to build a helpful AI receptionist for a doctor that is available on te
 9.If at any point the user says something unrelated, say “I don’t understand that and repeat the question/statement”
 
 # Flowchart
-![Flowchart](ai reception.png)
+![Flowchart](ai_reception.png)
 
 ## Functions
 
