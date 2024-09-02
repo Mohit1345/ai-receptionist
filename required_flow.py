@@ -57,7 +57,7 @@ async def node2A():
 
     if duration < 15:
         print("AI: Please hold, just a sec")
-        print("----------")
+
         if response_understanding['response'] == "its_late":
             emergency_action = rag_search(emergency_ask + " its being late")
         else:
@@ -70,9 +70,9 @@ async def node2A():
             emergency_action = rag_search(emergency_ask)
 
     if len(emergency_action)>0:
-        print("AI: " + emergency_action)
+        print(emergency_action)
         print("Don’t worry, please follow these steps, ")
-    
+print("----------")
     await closing_node()
 
 
