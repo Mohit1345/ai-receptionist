@@ -72,7 +72,7 @@ async def node2A():
     if len(emergency_action)>0:
         print(emergency_action)
         print("Don’t worry, please follow these steps, ")
-print("----------")
+    print("----------")
     await closing_node()
 
 
