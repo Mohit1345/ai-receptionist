@@ -22,7 +22,7 @@ async def unrelated_message():
     
 
 async def closing_node():
-    print("AI: Dr. Adrin will be with you shortly.")
+    print("Dr. Adrin will be with you shortly.")
 
 async def node2A():
     # Emergency Node
@@ -72,7 +72,7 @@ async def node2A():
     if len(emergency_action)>0:
         print(emergency_action)
         print("Don’t worry, please follow these steps, ")
-    print("----------")
+
     await closing_node()
 
 
